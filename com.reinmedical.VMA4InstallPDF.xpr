@@ -501,7 +501,7 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="com.reinmedical.VMA5PDF.xpr">
+    <projectTree name="com.reinmedical.VMA4InstallPDF.xpr">
         <folder masterFiles="true" name="Master Files">
             <file name="../../../../DITA-OT1.8.5/plugins/org.dita.pdf2/build.xml"/>
             <file name="build.xml"/>

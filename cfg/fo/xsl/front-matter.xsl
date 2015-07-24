@@ -182,7 +182,7 @@ See the accompanying license.txt file for applicable licenses.
                     <fo:block xsl:use-attribute-sets="__rm__revision__date">
                         <fo:inline text-align="left">DocRev: <xsl:value-of select="format-date(current-date(),'[Y]-[M]-[D]')"/></fo:inline> 
                     
-                    <fo:inline letter-spacing="30mm"
+                    <fo:inline letter-spacing="50mm"
                         border-right-width="0pt">&#x00A0;
                         <fo:external-graphic 
                             src="url({concat($artworkPrefix, '/Customization/OpenTopic/common/artwork/ce-01.svg')})"

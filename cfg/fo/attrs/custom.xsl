@@ -9,5 +9,14 @@
     <xsl:import href="static-content-attr.xsl"/>
     <xsl:import href="ui-domain-attr.xsl"/>
     <xsl:import href="front-matter-attr.xsl"/>
+<xsl:import href="tables-attr.xsl"/>
+<xsl:import href="tables-attr_axf.xsl"/>
+<xsl:import href="tables-attr_fop.xsl"/>
+<xsl:import href="toc-attr.xsl"/>
+<xsl:import href="toc-attr_axf.xsl"/>
+<xsl:import href="toc-attr_fop.xsl"/>
+
+
+
     
 </xsl:stylesheet>
