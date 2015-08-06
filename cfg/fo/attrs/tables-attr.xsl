@@ -134,7 +134,7 @@ See the accompanying license.txt file for applicable licenses.
 
   <xsl:attribute-set name="thead.row.entry">
     <!--head cell-->
-    <xsl:attribute name="background-color">antiquewhite</xsl:attribute>
+    <xsl:attribute name="background-color">white</xsl:attribute>
   </xsl:attribute-set>
 
   <xsl:attribute-set name="thead.row.entry__content" use-attribute-sets="common.table.body.entry common.table.head.entry">

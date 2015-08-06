@@ -55,7 +55,7 @@ See the accompanying license.txt file for applicable licenses.
     </xsl:attribute-set>
 
     <xsl:attribute-set name="__toc__topic__content">
-        <xsl:attribute name="last-line-end-indent">-22pt</xsl:attribute>
+        <xsl:attribute name="last-line-end-indent">22pt</xsl:attribute>
         <xsl:attribute name="end-indent">22pt</xsl:attribute>
         <xsl:attribute name="text-indent">-<xsl:value-of select="$toc.text-indent"/></xsl:attribute>
         <xsl:attribute name="text-align">start</xsl:attribute>
