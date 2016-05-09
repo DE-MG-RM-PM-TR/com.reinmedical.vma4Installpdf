@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<project name="com.reinmedical.vma5pdf" default="dita2vma5pdf">
-  <property name="transtype" value="vma5pdf"/>
+<project name="com.reinmedical.vma4Installpdf" default="dita2vma4Installpdf">
+  <property name="transtype" value="vma4Installpdf"/>
   
-  <target name="dita2vma5pdf" 
+  <target name="dita2vma4Installpdf" 
     xmlns:dita="http://dita-otsourceforge.net" 
     dita:extension="depends org.dita.dost.platform.InsertDependsAction">
    <property name="customization.dir" location="${dita.plugin.com.reinmedical.vma5pdf.dir}/cfg"/>
