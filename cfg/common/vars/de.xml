@@ -134,9 +134,12 @@ See the accompanying license.txt file for applicable licenses.
      <!--string before see also element-->
     <variable id="Index See Also String">Siehe auch </variable>
 
-    <!-- The string used to label a chapter within the table of contents. -->
-    <variable id="Table of Contents Chapter">Kapitel&#160;<param ref-name="number"/>:&#160;</variable>
-
+    <!-- The string used to label a chapter within the table of contents. --> 
+    <!--Rein Medical Edit: Kapitel Prefix raus-->
+    <!--<variable id="Table of Contents Chapter">Kapitel&#160;<param ref-name="number"/>:&#160;</variable>-->
+    <variable id="Table of Contents Chapter"><param ref-name="number"/>.&#160;</variable>
+     <!--Rein Medical Edit: ENDEs-->
+     
     <!-- The string used to label an appendix within the table of contents. -->
     <variable id="Table of Contents Appendix">Anhang&#160;<param ref-name="number"/>:&#160;</variable>
 
@@ -257,7 +260,11 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="Search title">Suchtitel</variable>
 
     <!-- Text to use for chapter titles.-->
-    <variable id="Chapter with number">Kapitel  <param ref-name="number"/></variable>
+     
+    <!--Rein Medical Edit: Kapitel-Prefix raus-->
+    <!--<variable id="Chapter with number">Kapitel  <param ref-name="number"/></variable>-->
+    <variable id="Chapter with number"><param ref-name="number"/></variable>
+    <!--Rein Medical Edit: EDNE-->
 
     <!-- Text to use for appendix titles.-->
     <variable id="Appendix with number">Anhang  <param ref-name="number"/></variable>

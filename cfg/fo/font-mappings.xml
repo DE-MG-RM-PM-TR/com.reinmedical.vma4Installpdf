@@ -50,21 +50,21 @@ See the accompanying license.txt file for applicable licenses.
     <aliases>
       <alias name="Courier">Monospaced</alias>
     </aliases>
-
+    
     <!-- OXYGEN PATCH START  Set fallback fonts for Asian and RTL languages. -->
     <logical-font name="Sans">
       <physical-font char-set="default">
-        <font-face>Helvetica, Arial Unicode MS, Tahoma, Batang</font-face>
+        <font-face>Helvetica, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
       <physical-font char-set="Simplified Chinese">
-        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang</font-face>
+        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang, SimSun</font-face>
       </physical-font>
       <physical-font char-set="Japanese">
         <font-face>KozMinProVI-Regular, Arial Unicode MS, Batang</font-face>
       </physical-font>
       <physical-font char-set="Korean">
         <font-face>AdobeMyungjoStd-Medium, Arial Unicode MS, Batang</font-face>
-      </physical-font>
+      </physical-font>      
       <physical-font char-set="Symbols">
         <font-face>ZapfDingbats</font-face>
       </physical-font>
@@ -72,7 +72,7 @@ See the accompanying license.txt file for applicable licenses.
         <font-face>ZapfDingbats</font-face>
       </physical-font>
       <physical-font char-set="SymbolsSuperscript">
-        <font-face>Helvetica, Arial Unicode MS, Tahoma, Batang</font-face>
+        <font-face>Helvetica, Arial Unicode MS</font-face>
         <baseline-shift>20%</baseline-shift>
         <override-size>smaller</override-size>
       </physical-font>
@@ -80,12 +80,14 @@ See the accompanying license.txt file for applicable licenses.
 
     <logical-font name="Serif">
       <physical-font char-set="default">
-        <!--Rein Medical Patch Body-Schriftart geändert-->
-        <!--<font-face>Times New Roman, Times, Arial Unicode MS, Tahoma, Batang</font-face>-->
-        <font-face>Arial, Times, Arial Unicode MS, Tahoma, Batang</font-face>
+       <!--Rein Medical Patch Body-Schriftart geändert-->
+       <!--<font-face>Times New Roman, Times, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>-->
+       <font-face>Arial, Times, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
+        
+        
       </physical-font>
       <physical-font char-set="Simplified Chinese">
-        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang</font-face>
+        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang, SimSun</font-face>
       </physical-font>
       <physical-font char-set="Japanese">
         <font-face>KozMinProVI-Regular, Arial Unicode MS, Batang</font-face>
@@ -108,10 +110,10 @@ See the accompanying license.txt file for applicable licenses.
 
     <logical-font name="Monospaced">
       <physical-font char-set="default">
-        <font-face>Courier New, Courier, Arial Unicode MS, Tahoma, Batang</font-face>
+        <font-face>Courier New, Courier, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
       <physical-font char-set="Simplified Chinese">
-        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang</font-face>
+        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang, SimSun</font-face>
       </physical-font>
       <physical-font char-set="Japanese">
         <font-face>KozMinProVI-Regular, Arial Unicode MS, Batang</font-face>
@@ -130,5 +132,5 @@ See the accompanying license.txt file for applicable licenses.
     </logical-font>
     <!-- OXYGEN PATCH END  Set fallback fonts for Asian and RTL languages. -->
   </font-table>
-
+  
 </font-mappings>

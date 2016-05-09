@@ -120,8 +120,11 @@ See the accompanying license.txt file for applicable licenses.
     <!-- The unordered list bullet   -->
     <variable id="Unordered List bullet">&#8226;</variable>
 
-    <!-- The heading string to put at the top of the Table of Contents -->
-    <variable id="Table of Contents">Sommaire</variable>
+     <!-- The heading string to put at the top of the Table of Contents -->
+     <!--Rein Medical Edit: Übersetzungsfehler behoben-->
+     <!--<variable id="Table of Contents">Sommaire</variable>-->
+     <variable id="Table of Contents">Table des matières</variable>
+     <!--Rein Medical Edit Ende-->
 
     <!-- The heading string to put at the top of the Index -->
     <variable id="Index">L&apos;index</variable>
@@ -135,7 +138,10 @@ See the accompanying license.txt file for applicable licenses.
      <variable id="Index See Also String">Voir aussi </variable>
 
     <!-- The string used to label a chapter within the table of contents. -->
-    <variable id="Table of Contents Chapter">Chapitre&#160;<param ref-name="number"/>&#160;:&#160;</variable>
+     <!--Rein Medical Edit: Kapitel Prefix raus-->
+     <!--<variable id="Table of Contents Chapter">Chapitre&#160;<param ref-name="number"/>&#160;:&#160;</variable>-->
+     <variable id="Table of Contents Chapter"><param ref-name="number"/>.&#160;</variable>
+     <!--Rein Medical Edit: ENDEs-->
 
     <!-- The string used to label an appendix within the table of contents. -->
     <variable id="Table of Contents Appendix">Annexe&#160;<param ref-name="number"/>&#160;:&#160;</variable>
@@ -203,7 +209,7 @@ See the accompanying license.txt file for applicable licenses.
 
     <!-- Text to use for table titles. Renders as part of <table>/<title> 
          elements. -->
-    <variable id="Table">Table <param ref-name="number"/>&#160;: <param ref-name="title"/></variable>
+     <variable id="Table">Tableau <param ref-name="number"/>&#160;: <param ref-name="title"/></variable>
 
     <!-- Text to use for related links label.
          Renders as part of <related-links> element. -->
@@ -257,7 +263,10 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="Search title">Titre de recherche</variable>
 
     <!-- Text to use for chapter titles.-->
-    <variable id="Chapter with number">Chapitre <param ref-name="number"/></variable>
+     <!--Rein Medical Edit: Kapitel-Prefix raus-->
+     <!--<variable id="Chapter with number">Chapitre <param ref-name="number"/></variable>-->
+     <variable id="Chapter with number"><param ref-name="number"/></variable>
+     <!--Rein Medical Edit: EDNE-->
 
     <!-- Text to use for appendix titles.-->
     <variable id="Appendix with number">Annexe <param ref-name="number"/></variable>

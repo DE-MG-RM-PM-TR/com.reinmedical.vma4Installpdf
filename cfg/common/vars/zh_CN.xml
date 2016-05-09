@@ -76,10 +76,10 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="Preface first footer"/>
 
     <!-- The header that appears on Preface odd-numbered pages. -->
-    <variable id="Preface odd header"><param ref-name="prodname"/>&#160;|&#160;Introduzione&#160;|&#160;<param ref-name="pagenum"/></variable>
+    <variable id="Preface odd header"><param ref-name="prodname"/>&#160;|&#160;序言&#160;|&#160;<param ref-name="pagenum"/></variable>
 
     <!-- The header that appears on Preface even-numbered pages. -->
-    <variable id="Preface even header"><param ref-name="pagenum"/>&#160;|&#160;Introduzione&#160;|&#160;<param ref-name="prodname"/></variable>
+    <variable id="Preface even header"><param ref-name="pagenum"/>&#160;|&#160;序言&#160;|&#160;<param ref-name="prodname"/></variable>
 
     <!-- The header that appears on Preface first page. -->
     <variable id="Preface first header"/>
@@ -94,7 +94,7 @@ See the accompanying license.txt file for applicable licenses.
 
     <!-- The header that appears on the odd-numbered table of contents
          pages. --> 
-    <!-- Indice generale -->
+    <!-- 目录 -->
     <variable id="Toc odd header"><param ref-name="prodname"/>&#160;|&#160;<param ref-name="heading"/>&#160;|&#160;<param ref-name="pagenum"/></variable>
 
     <!-- The header that appears on the odd-numbered table of contents
@@ -121,266 +121,239 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="Unordered List bullet">&#8226;</variable>
 
     <!-- The heading string to put at the top of the Table of Contents -->
-    <variable id="Table of Contents">Sommario</variable>
+    <variable id="Table of Contents">内容</variable>
 
     <!-- The heading string to put at the top of the Index -->
-    <variable id="Index">Indice</variable>
-    <variable id="Index Continued String">continuato</variable>
-    <variable id="Index See String">, Vedi </variable>
-    <variable id="Index See Also String">Vedi anche </variable>
+    <variable id="Index">索引</variable>
+    <variable id="Index Continued String">继续</variable>
+    <variable id="Index See String">，见</variable>
+    <variable id="Index See Also String">参见</variable>
 
     <!-- The string used to label a chapter within the table of contents. -->
      <!--Rein Medical Edit: Kapitel Prefix raus-->
-     <!--<variable id="Table of Contents Chapter">Capitolo&#160;<param ref-name="number"/>:&#160;</variable>-->
+     <!--<variable id="Table of Contents Chapter">章节&#160;<param ref-name="number"/>:&#160;</variable>-->
      <variable id="Table of Contents Chapter"><param ref-name="number"/>.&#160;</variable>
      <!--Rein Medical Edit: ENDEs-->
+    
 
     <!-- The string used to label an appendix within the table of contents. -->
-    <variable id="Table of Contents Appendix">Appendice&#160;<param ref-name="number"/>:&#160;</variable>
+    <variable id="Table of Contents Appendix">附录&#160;<param ref-name="number"/>:&#160;</variable>
 
     <!-- The string used to label an part within the table of contents. -->
-    <variable id="Table of Contents Part">Parte&#160;<param ref-name="number"/>:&#160;</variable>
+    <variable id="Table of Contents Part">第部分&#160;<param ref-name="number"/>:&#160;</variable>
 
     <!-- The string used to label an preface within the table of contents. -->
-    <variable id="Table of Contents Preface">Introduzione&#160;</variable>
-    <variable id="Preface title">Introduzione</variable>
+    <variable id="Table of Contents Preface">序言&#160;</variable>
+    <variable id="Preface title">序言</variable>
 
     <!-- The heading to put at the top of a chapter when creating a
          chapter-level "mini-TOC" -->
-    <variable id="Mini Toc">Argomenti: </variable>
+    <variable id="Mini Toc">Topics: </variable>
 
     <variable id="#note-separator">: </variable>
     <!-- Text to use for 'Note' label generated from <note> element. -->
-    <variable id="Note">Nota</variable>
+    <variable id="Note">注</variable>
     <!-- Text to use for 'Notice' label generated from <note> element. -->
     <variable id="Notice"><!--TODO:Notice--></variable>
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'tip'. -->
-    <variable id="Tip">Suggerimento</variable>
+    <variable id="Tip">提示</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element
          with 'type' attribute set to 'tip'. -->
-    <variable id="Important">Importante</variable>
+    <variable id="Important">重要</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'fastpath'. -->
-    <variable id="Fastpath">Percorso rapido</variable>
+    <variable id="Fastpath">捷径</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'remember'. -->
-    <variable id="Remember">Promemoria</variable>
+    <variable id="Remember">切记</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'attention'. -->
-    <variable id="Attention">Attenzione</variable>
+    <variable id="Attention">注意</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'caution'. -->
-    <variable id="Caution">Avvertenza</variable>
+    <variable id="Caution">警告</variable>
     <!-- Text to use for 'Note' label generated from <note> element with 'type' attribute set to 'warning'. -->
-    <variable id="Warning">Avvertimento</variable>
+    <variable id="Warning">警告</variable>
     <!-- Text to use for 'Note' label generated from <note> element 
          with 'type' attribute set to 'danger'. -->
-    <variable id="Danger">Pericolo</variable>
+    <variable id="Danger">危险</variable>
 
     <!-- Text to use for 'Note' label generated from <note> element
          with 'type' attribute set to 'restriction'. -->
-    <variable id="Restriction">Limitazione</variable>
+    <variable id="Restriction">限制</variable>
 
     <!-- Text to use for figure titles. Renders as part of <fig>/<title>
           elements. -->
-    <variable id="Figure"> Figura <param ref-name="number"/>: <param ref-name="title"/></variable>
+    <variable id="Figure">图 <param ref-name="number"/>: <param ref-name="title"/></variable>
 
     <!-- Text to use for table titles. Renders as part of <table>/<title> 
          elements. -->
-    <variable id="Table">Tabella <param ref-name="number"/>: <param ref-name="title"/></variable>
+    <variable id="Table">表 <param ref-name="number"/>: <param ref-name="title"/></variable>
 
     <!-- Text to use for related links label.
          Renders as part of <related-links> element. -->
-    <variable id="Related Links">Collegamenti correlati</variable>
+    <variable id="Related Links">Related Links</variable>
 
     <!-- Default cross-reference text prefix. Used to generate reference 
          text in case it's not specified in source. -->
-    <variable id="Cross-Reference">Riferimento incrociato a: </variable>
+    <variable id="Cross-Reference">Cross-Reference to:</variable>
 
     <!-- Default content-reference text prefix. Used to generate reference 
          text in case target cannot be resolved. -->
-    <variable id="Content-Reference">Riferimento di contenuto a: </variable>
+    <variable id="Content-Reference">Content-Reference to:</variable>
 
     <!-- Default title text for referenced section title. Used to generate 
          reference text in case reference has no explicit content and
          referenced section has no title. -->
-    <variable id="Untitled section">Sezione senza titolo.</variable>
+    <variable id="Untitled section">Untitled section.</variable>
 
     <!-- Default title text for referenced list item. Used to generate
          reference text in case reference has no explicit content and 
          reference target is a list item. -->
-    <variable id="List item">Voce di elenco.</variable>
+    <variable id="List item">List item.</variable>
 
     <!-- Default title text for referenced footnote. Used to generate 
          reference text in case reference has no explicit content and 
          reference target is a footnote. -->
-    <variable id="Foot note">Piè di pagina.</variable>
+    <variable id="Foot note">Footnote.</variable>
 
     <!-- Text to use for a generated label of navigation title. Renders
          as part of <navtitle> element. -->
-    <variable id="Navigation title">Titolo navigazione</variable>
+    <variable id="Navigation title">Navigation title</variable>
 
     <!-- Text to use for a generated label of search title. Renders 
          as part of <searchtitle> element. -->
-    <variable id="Search title">Titolo di ricerca</variable>
+    <variable id="Search title">Search title</variable>
 
     <!-- Text to use for chapter titles.-->
      <!--Rein Medical Edit: Kapitel-Prefix raus-->
-     <!--<variable id="Chapter with number">Capitolo <param ref-name="number"/></variable>-->
+     <!--<variable id="Chapter with number">第 <param ref-name="number"/> 章</variable>-->
      <variable id="Chapter with number"><param ref-name="number"/></variable>
      <!--Rein Medical Edit: EDNE-->
 
     <!-- Text to use for appendix titles.-->
-    <variable id="Appendix with number">Appendice <param ref-name="number"/></variable>
+    <variable id="Appendix with number">附录 <param ref-name="number"/></variable>
 
     <!-- Text to use for part titles.-->
-    <variable id="Part with number">Parte <param ref-name="number"/></variable>
+    <variable id="Part with number">第 <param ref-name="number"/> 部分</variable>
 
     <!-- Text to use for a label generated from <required-cleanup> element. -->
-    <variable id="Required-Cleanup">[Cleanup richiesto]</variable>
+    <variable id="Required-Cleanup">[需要修正]</variable>
 
     <!-- Template for generated page number of a reference 
          in printed manual. -->
-     <variable id="On the page"> alla pagina&#160;<param ref-name="pagenum"/></variable>
+    <variable id="On the page"> on page <param ref-name="pagenum"/></variable>
 
     <!-- Template for generated page number of a reference
          in printed manual, when referenced element has no title. -->
-    <variable id="Page"> pagina <param ref-name="pagenum"/></variable>
+    <variable id="Page"> page <param ref-name="pagenum"/></variable>
 
     <!-- Template for generated page number of a reference
          in chm/html, when referenced element has no title. -->
-    <variable id="This link">questo collegamento</variable>
+    <variable id="This link">this link</variable>
 
-     <!-- Image path to use for a note of "note" type. -->
-     <variable id="note Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
-     <!-- Image path to use for a note of "notice" type. -->
-     <variable id="notice Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
-     <!-- Image path to use for a note of "attention" type. -->
-     <variable id="attention Note Image Path">Customization/OpenTopic/common/artwork/important.png</variable>
-     
-     <!-- Image path to use for a note of "caution" type. -->
-     <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/caution.png</variable>
-     
-     <!-- Image path to use for a note of "danger" type. -->
-     <variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/danger.png</variable>
-     <!-- Image path to use for a note of "warning" type. -->
-     <variable id="warning Note Image Path">Customization/OpenTopic/common/artwork/warning.png</variable>
-     <!-- Image path to use for a note of "fastpath" type. -->
-     <variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/nav_right16.png</variable>
-     
-     <!-- Image path to use for a note of "important" type. -->
-     <variable id="important Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
-     
-     <!-- Image path to use for a note of "remember" type. -->
-     <variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/remember.png</variable>
-     
-     <!-- Image path to use for a note of "restriction" type. -->
-     <variable id="restriction Note Image Path">Customization/OpenTopic/common/artwork/restriction.png</variable>
-     
-     <!-- Image path to use for a note of "tip" type. -->
-     <variable id="tip Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
-     
-     <!-- Image path to use for a note of "other" type. -->
-     <variable id="other Note Image Path">Customization/OpenTopic/common/artwork/nav_right16.png</variable>
-     
-     <!--
-        String used for links in end of document in XHTML (SNo: auch für PDF Ausgabe relvant)
-    -->
-     
-     <!-- The title of the links to parent -->
-     <variable id="Parent topic">Parent Topic</variable>
-     
-     <!-- The title of the links to next topics -->
-     <variable id="Next topic">Next Topic</variable>
-     
-     <!-- The title of the links to previous topics -->
-     <variable id="Previous topic">Previous Topic</variable>
-     
-     <!-- The title of the links to child topics -->
-     <variable id="Child topics">Child Topics</variable>
-     
-     <!-- The title of the links to Related concepts -->
-     <variable id="Related concepts">Related Concepts</variable>
-     
-     <!-- The title of the links to Related tasks -->
-     <variable id="Related tasks">Related Tasks</variable>
-     
-     <!-- The title of the links to Related references -->
-     <variable id="Related references">Related References</variable>
-     
-     <!-- The title of the links to Related information -->
-     <variable id="Related information">Related Information</variable> 
-
+    <!-- Image path to use for a note of "note" type. -->
+    <variable id="note Note Image Path">Configuration/OpenTopic/cfg/common/artwork/note.png</variable>
+    <!-- Image path to use for a note of "notice" type. -->
+    <variable id="notice Note Image Path">Configuration/OpenTopic/cfg/common/artwork/important.png</variable>
+    <!-- Image path to use for a note of "attention" type. -->
+    <variable id="attention Note Image Path">Configuration/OpenTopic/cfg/common/artwork/important.png</variable>
+    
+    <!-- Image path to use for a note of "caution" type. -->
+    <variable id="caution Note Image Path">Configuration/OpenTopic/cfg/common/artwork/caution.png</variable>
+    
+    <!-- Image path to use for a note of "danger" type. -->
+    <variable id="danger Note Image Path">Configuration/OpenTopic/cfg/common/artwork/danger.png</variable>
+    <!-- Image path to use for a note of "warning" type. -->
+    <variable id="warning Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.png</variable>
+    <!-- Image path to use for a note of "fastpath" type. -->
+    <variable id="fastpath Note Image Path">Configuration/OpenTopic/cfg/common/artwork/nav_right16.png</variable>
+    
+    <!-- Image path to use for a note of "important" type. -->
+    <variable id="important Note Image Path">Configuration/OpenTopic/cfg/common/artwork/important.png</variable>
+    
+    <!-- Image path to use for a note of "remember" type. -->
+    <variable id="remember Note Image Path">Configuration/OpenTopic/cfg/common/artwork/remember.png</variable>
+    
+    <!-- Image path to use for a note of "restriction" type. -->
+    <variable id="restriction Note Image Path">Configuration/OpenTopic/cfg/common/artwork/restriction.png</variable>
+    
+    <!-- Image path to use for a note of "tip" type. -->
+    <variable id="tip Note Image Path">Configuration/OpenTopic/cfg/common/artwork/tip.png</variable>
+    
+    <!-- Image path to use for a note of "other" type. -->
+    <variable id="other Note Image Path">Configuration/OpenTopic/cfg/common/artwork/nav_right16.png</variable>
+    
     <!--
        Strings used in the online-help publishing.
     -->
 
     <!-- The title of the "contents" button in online-help output -->
-    <variable id="Contents button title">Sommario</variable>
+    <variable id="Contents button title">Contents</variable>
 
     <!-- The title of the "index" button in online-help output -->
-    <variable id="Index button title">Indice</variable>
+    <variable id="Index button title">索引</variable>
 
     <!-- The title of the "search" button in online-help output -->
-    <variable id="Search button title">Ricerca</variable>
+    <variable id="Search button title">Search</variable>
 
     <!-- The title of the "back" button in online-help output -->
-    <variable id="Back button title">Indietro</variable>
+    <variable id="Back button title">Back</variable>
 
     <!-- The title of the "forward" button in online-help output -->
-    <variable id="Forward button title">Avanti</variable>
+    <variable id="Forward button title">Forward</variable>
 
     <!-- The title of the "main page" button in online-help output -->
-    <variable id="Main page button title">Pagina Principale</variable>
+    <variable id="Main page button title">Main Page</variable>
 
     <!-- The title of the "previous page" button in online-help output -->
-    <variable id="Previous page button title">Pagina Precedente</variable>
+    <variable id="Previous page button title">Previous Page</variable>
 
     <!-- The title of the "next page" button in online-help output -->
-    <variable id="Next page button title">Pagina Seguente</variable>
+    <variable id="Next page button title">Next Page</variable>
 
     <!-- The "online help" document title prefix in online-help output -->
-    <variable id="Online help prefix">Aiuto In linea</variable>
+    <variable id="Online help prefix">Online Help</variable>
 
     <!-- The search by index field title in online-help output -->
-    <variable id="Search index field title">Ricerca della parola chiave:</variable>
+    <variable id="Search index field title">Search for the keyword:</variable>
 
     <!-- The search by index button title in online-help output -->
-    <variable id="Search index button title">Osservi</variable>
+    <variable id="Search index button title">View</variable>
 
     <!-- The search by text field title in online-help output -->
-    <variable id="Search text field title">Aiuto di ricerca per:</variable>
+    <variable id="Search text field title">Search help for:</variable>
 
     <!-- The search by text button title in online-help output -->
-    <variable id="Search text button title">Ricerca</variable>
+    <variable id="Search text button title">Search</variable>
     
     <!--Label for a step with importance="optional"-->
-    <variable id="Optional Step">Opzionale:</variable>
+    <variable id="Optional Step">可选：</variable>
 
     <!--Labels for task sections-->
-    <variable id="Task Prereq">Prima di iniziare</variable>
-    <variable id="Task Context">Informazioni su questa attività</variable>
-    <variable id="Task Steps">Procedura</variable>
+    <variable id="Task Prereq">开始之前</variable>
+    <variable id="Task Context">关于此任务</variable>
+    <variable id="Task Steps">过程</variable>
   <variable id="#steps-unordered-label"><variable id="Task Steps"/></variable>
-    <variable id="Task Result">Risultati</variable>
-    <variable id="Task Example">Esempio</variable>
-    <variable id="Task Postreq">Operazioni successive</variable>
+    <variable id="Task Result">结果</variable>
+    <variable id="Task Example">示例</variable>
+    <variable id="Task Postreq">下一步做什么</variable>
     <variable id="Glossary odd footer"/>
     <variable id="Glossary even footer"/>
     <variable id="Glossary odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
     <variable id="Glossary even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
-    <variable id="Glossary">Glossario</variable>
-    <variable id="List of Tables">Lista delle tabelle</variable>
-    <variable id="List of Figures">Lista delle figure</variable>
-  <variable id="Option">Opzione</variable>
-  <variable id="Description">Descrizione</variable>
+    <variable id="Glossary">术语表</variable>
+    <variable id="List of Tables">表格清单</variable>
+    <variable id="List of Figures">插图清单</variable>
+  <variable id="Option">选项</variable>
+  <variable id="Description">描述</variable>
   <variable id="#menucascade-separator">&#xA0;&#x3E; </variable>
-  <variable id="#quote-start">«</variable>
-  <variable id="#quote-end">»</variable>
+  <variable id="#quote-start">“</variable>
+  <variable id="#quote-end">”</variable>
 </vars>

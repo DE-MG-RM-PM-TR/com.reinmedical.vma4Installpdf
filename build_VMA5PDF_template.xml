@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project name="com.reinmedical.vma5pdf" default="dita2vma5pdf">
+  <property name="transtype" value="vma5pdf"/>
+  
+  <target name="dita2vma5pdf" 
+    xmlns:dita="http://dita-otsourceforge.net" 
+    dita:extension="depends org.dita.dost.platform.InsertDependsAction">
+   <property name="customization.dir" location="${dita.plugin.com.reinmedical.vma5pdf.dir}/cfg"/>
+    <antcall target="dita2pdf2"></antcall>   
+  </target>
+</project>

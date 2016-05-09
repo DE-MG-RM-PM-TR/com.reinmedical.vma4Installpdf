@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="com.reinmedical.vma4Installpdf">
+<plugin id="com.reinmedical.vma5pdf">
   
   <require plugin="org.dita.pdf2"/>
   
-  <feature extension="dita.conductor.transtype.check" value="vma4Installpdf"/>
-  <feature extension="dita.transtype.print" value="vma4Installpdf"/>
+  <feature extension="dita.conductor.transtype.check" value="vma5pdf"/>
+  <feature extension="dita.transtype.print" value="vma5pdf"/>
   <feature extension="dita.conductor.target.relative" file="build.xml"/>
   
   <!-- extension points -->
