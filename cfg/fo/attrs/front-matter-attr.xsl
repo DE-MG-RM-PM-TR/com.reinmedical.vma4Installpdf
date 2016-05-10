@@ -40,8 +40,9 @@ See the accompanying license.txt file for applicable licenses.
     </xsl:attribute-set>
 
     <xsl:attribute-set name="__frontmatter__title" use-attribute-sets="common.title">
-        <xsl:attribute name="space-before">150mm</xsl:attribute>
+        <xsl:attribute name="space-before">98mm</xsl:attribute>
         <xsl:attribute name="space-before.conditionality">retain</xsl:attribute>
+        <xsl:attribute name="start-indent">33pt</xsl:attribute>
         <xsl:attribute name="font-size">22pt</xsl:attribute>
         <xsl:attribute name="font-weight">bold</xsl:attribute>
         <xsl:attribute name="line-height">140%</xsl:attribute>
@@ -85,15 +86,16 @@ See the accompanying license.txt file for applicable licenses.
     <!--Rein Medical sets-->
     <xsl:attribute-set name="__rm__revision__date">
         <xsl:attribute name="position">absolute</xsl:attribute>
-        <xsl:attribute name="top">180mm</xsl:attribute>
-        <xsl:attribute name="left">12mm</xsl:attribute> 
+        <xsl:attribute name="top">126mm</xsl:attribute>
+        <xsl:attribute name="left">25mm</xsl:attribute> 
         <xsl:attribute name="color">white</xsl:attribute>
         <xsl:attribute name="text-align">left</xsl:attribute>
     </xsl:attribute-set>
     
     <xsl:attribute-set name="__rm__frontmatter__language">
         <xsl:attribute name="position">absolute</xsl:attribute>
-        <xsl:attribute name="top">180mm</xsl:attribute>
+        <xsl:attribute name="left">13mm</xsl:attribute> 
+        <xsl:attribute name="top">126mm</xsl:attribute>
         <xsl:attribute name="color">white</xsl:attribute>
         <xsl:attribute name="text-align">left</xsl:attribute>
         <xsl:attribute name="font-weight">bold</xsl:attribute>

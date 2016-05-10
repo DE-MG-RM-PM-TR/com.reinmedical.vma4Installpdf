@@ -90,7 +90,7 @@ See the accompanying license.txt file for applicable licenses.
                 </fo:block>-->
                 
                 <fo:block-container absolute-position="absolute"
-                  top="-2cm" left="-2cm" width="21cm" height="29.7cm"
+                  top="-20mm" left="-20mm" width="297mm" height="210mm"
                   background-image="Customization/OpenTopic/common/artwork/ManualCoverPageA4_V2-01.png">
                   <fo:block/>
                 </fo:block-container>
