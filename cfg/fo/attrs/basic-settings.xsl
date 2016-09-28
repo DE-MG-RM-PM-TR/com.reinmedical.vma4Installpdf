@@ -44,7 +44,7 @@
   <xsl:variable name="page-height">210mm</xsl:variable>
 
   <!-- This is the default, but you can set the margins individually below. -->
-  <xsl:variable name="page-margins">20mm</xsl:variable>
+  <xsl:variable name="page-margins">15mm</xsl:variable>
 
   <!-- Change these if your page has different margins on different sides. -->
   <xsl:variable name="page-margin-inside" select="$page-margins"/>
